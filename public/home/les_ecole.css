@@ -1,0 +1,379 @@
+/* ////////////////////HEADER HEADER///////// */
+
+.carousel-item{
+    height: 390px;
+}
+
+.home-slider {
+ 
+    margin-bottom: -70px !important;
+}
+
+.home-slider .single-slider {
+    background-position: 0 !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 560px;
+    border: none;
+    margin-top: -55px;
+}
+
+.home-slider .single-slider .slider-text{
+    position: absolute !important;
+    top: 305px !important;
+    /* bottom: -550px !important; */
+    left: -180px !important;
+    color: white !important;
+    padding: 15px !important;
+    width: 78% !important;
+    background: rgba(6,148,159,0.8) !important;
+    height: 188px !important;
+}
+
+.row .col-lg-4 .logo {
+    width: 90px;
+
+}
+
+.row .col-lg-4 .logo img{
+    vertical-align: middle; 
+}
+
+.row .col-lg-4 span{
+    padding: 40px 0;
+    display: flex;
+    font-size: 19px;
+    font-weight: bold;
+    color: darkorange;
+}
+
+
+/* ////////////////////LES SLIDERS ///////// */
+.ecole_carousel{
+    border: 1px solid;
+}
+
+/* //////////////////// end LES SLIDERS ///////// */
+
+/*/////////////////////// logo lien de l'ecole//////////////*/
+
+ 
+.logoecole{
+    margin-left: -20px;
+}
+
+ .logoecole img{
+    margin:0 auto;
+    display:block;
+
+}
+
+    #school_link{
+        background: #002e6d !important;
+        display: block !important;
+        color: white !important;
+        font-size: 18px !important;
+        height: 58px !important;
+        margin-bottom: 8px !important;
+        padding-left: 60px !important;
+        padding-top: 20px !important;
+        position: relative !important;
+  }
+
+  #map_school_info {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+    }
+
+    #map_school_info td {
+        width: 50%;
+    }
+
+    .slider-text .gras{
+        font-weight: bold;
+    }  
+
+    
+    .slider-text .slogan{
+        text-align: center;
+        font-size: 20px;
+     }
+
+     
+     .decri_ecole{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px !important;
+        background: rgba(6,148,159,0.4);;
+        opacity: 5;
+         
+     }
+
+    /*/////////////////////// ANIMATION MARKETING /////////////*/
+
+     /* #flip {
+        font-family: "poppins";
+        height: 75px;
+        overflow: hidden;
+        }
+
+        #flip > #bservice {
+            position: relative;
+            top: -65px;
+            animation: show 20s linear infinite;
+            animation-delay: 2s;
+            -webkit-animation: show 20s linear infinite;
+            -webkit-animation-delay: 2s;
+            -moz-animation: show 20s linear infinite;
+            -moz-animation-delay: 2s;
+            -ms-animation: show 20s linear infinite;
+            -ms-animation-delay: 2s;
+            -o-animation: show 20s linear infinite;
+            -o-animation-delay: 2s;
+        }
+
+    
+    #flip > #bservice > div {
+        color: #fff;
+        padding: 8px 12px;
+        height: 50px;
+        font-size: 42px;
+        margin-bottom: 100px;
+        display: inline-block;
+        -webkit-box-shadow: 0 8px 6px -6px #777;
+        -moz-box-shadow: 0 8px 6px -6px #777;
+        box-shadow: 0 8px 6px -6px #777;
+    }
+
+    #flip > #bservice > div {
+        color: #fff;
+        font-size: 42px;
+    }   
+
+    #flip .maison {
+        background: #ffffff;
+        color: #eb3c1c;
+        padding: 0px 17px;
+        position: relative;
+        bottom: 18px;
+    }
+
+    #flip .reseau {
+        background: #0484a9;
+        padding: 0px 17px;
+        position: relative;
+        bottom: 18px;
+    }
+
+    #flip .domotique {
+        background: #4ec7f3;
+        padding: 0px 17px;
+        position: relative;
+        bottom: 18px;
+    } */
+
+
+
+
+/*/////////////////////// ANIMATION MARKETING //////////////*/
+
+
+/*/////////////////////// logo lien de l'ecole//////////////*/
+    .owl-stage{
+        transition: none !important;
+         width: auto !important; 
+    }
+
+     .owl-item {
+         width: auto !important;
+        /* margin-right: 25px;*/
+    } 
+   
+    .owl-prev, .owl-next{
+        display: none !important;
+    }
+
+    /* /////////////////// presentation ///////// */
+    
+    .contour_presentation{
+        padding: 30px 0;
+        padding-top: 0px !important;
+    }
+
+    .lestexte{
+        margin: 20px 0;
+        color: #0099a5;
+        font-size: 20px;
+    }
+
+    .lesvideo{
+        margin: 30px 0 1px 0;
+        color: #0099a5;
+        font-size: 20px;
+    }
+    
+    .explitexte{
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    
+
+    .titre p strong{
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .titre {
+        margin-top: 10px;
+    }
+
+    /* .titre ul li{
+        color: #0099a5;
+    } */
+
+    .titre ul li a{
+        color: #0099a5;
+    }
+
+
+    .titr1{
+        margin-top: 25px;
+    }
+
+    .titre .btn {
+        color: #FF6F61;
+        font-weight: bold;
+        background: #ffffff;
+        border: 1px solid #FF6F61;
+    }
+
+
+    .titre ul {
+        padding-left: 30px !important;
+
+    }
+
+    .titre ul li{
+        list-style: square; 
+        font-size: 16px;
+
+    }
+
+    .fa-download{
+        font-size:36px
+    } 
+
+    
+
+/* .bordure .col-lg-3 a img{
+        line-height: 160px;
+        border: 1px solid #d5d5d5;
+        
+    }  */
+
+    .bordure {
+        
+        border: 1px solid #d5d5d5;
+        text-align: center;
+        padding: 30px 1px 0 1px !important;
+    }
+
+    .logo_partenaire{
+        height: 50px;
+    }
+
+    .logo_partenaire img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .ecole{
+        
+        display: flex;
+        height: 310px;
+        background: #ffffff;
+        transition: .3s;
+        border-radius: 8px 8px 8px 8px !important;
+        overflow: hidden;
+        padding-top: 10px;
+        margin: auto;
+        margin-right: -10px;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+        display: inline-grid;
+        /* align-items: center; */
+        /* position: relative;
+        height: 150px !important;
+        padding: 15px   !important;
+        text-align: center !important;
+        overflow: hidden !important; */
+        
+    }
+
+    .equipe{
+        font-size: 16px;
+        line-height: 2;
+    }
+
+
+
+    .ecole img{
+        
+        height: 100%;
+        transition: all .3s;
+        margin: auto;
+        overflow: hidden;
+        
+        /* height: 100% !important;
+        overflow: hidden !important;
+        vertical-align: initial !important; */
+        
+    }
+
+    .titre_ecole{
+        font-size: 17px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 30px !important;
+        text-transform: none !important; 
+    }
+
+    .section-title {
+        text-align: center;
+        padding: 0px;
+        margin-top: 50px;
+
+    }
+
+    .conteneur_vidéo{
+        overflow: hidden;
+    }
+
+
+   .playvidéo{
+    height: 330px;
+    width: 456px;
+    margin-top: -20px;
+   }
+
+   .Partenaires{
+       margin-top: 25px !important;
+   }
+
+   .top-content{
+        margin-bottom: 35px;
+   }
+
+
+   
+   
+   
+   
+

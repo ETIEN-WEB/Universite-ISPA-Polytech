@@ -1,0 +1,404 @@
+/* ////////////////////HEADER HEADER///////// */
+
+.row .col-lg-4 .logo {
+    width: 90px;
+
+}
+
+.row .col-lg-4 .logo img{
+    vertical-align: middle; 
+}
+
+.row .col-lg-4 span{
+    padding: 40px 0;
+    display: flex;
+    font-size: 19px;
+    font-weight: bold;
+    color: darkorange;
+}
+
+
+/* ////////////////////LES SLIDERS ///////// */
+
+
+
+
+    .slider-text .gras{
+        font-weight: bold;
+    }  
+
+    .single-slider{
+        background-position: 0 !important;
+    }
+
+    .slider-text .slogan{
+        text-align: center;
+        font-size: 20px;
+     }
+
+    .owl-stage{
+        transition: none !important;
+         width: auto !important; 
+    }
+
+     .owl-item {
+         width: auto !important;
+        /* margin-right: 25px;*/
+    } 
+   
+    .owl-prev, .owl-next{
+        display: none !important;
+    }
+
+    /* /////////////////// presentation ///////// */
+    
+    .contour_presentation{
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
+    .lestexte{
+        margin: 20px 0;
+        color: #0099a5;
+        font-size: 20px;
+    }
+
+    .lesvideo{
+        margin: 30px 0 1px 0;
+        color: #0099a5;
+        font-size: 20px;
+    }
+    
+    .explitexte{
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color:  #0099a5;
+    }
+
+    .titre p strong{
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .titre {
+        margin-top: 21px;
+
+    }
+
+    .titre .btn {
+        color: #FF6F61;
+        font-weight: bold;
+        background: #ffffff;
+        border: 1px solid #FF6F61;
+    }
+
+    .titre ul li{
+        list-style: square; 
+        font-size: 16px;
+    }
+
+    .titre ul li:hover{
+        color: #FF6F61;
+       text-decoration: underline;
+    }
+
+    .titre ul li a:hover{
+        color: #FF6F61;
+       text-decoration: underline;
+    }
+
+
+    .titre ul li a{
+        color:black;
+
+
+    }
+
+    .titre ul{
+        padding-left: 30px;
+
+    }
+
+    .fa-download{
+        font-size:36px
+    } 
+
+    
+
+/* .bordure .col-lg-3 a img{
+        line-height: 160px;
+        border: 1px solid #d5d5d5;
+        
+    }  */
+
+    .bordure {
+        
+        border: 1px solid #d5d5d5;
+        text-align: center;
+        padding: 30px 1px 0 1px !important;
+    }
+
+    .logo_partenaire{
+        height: 50px;
+    }
+
+    .logo_partenaire img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .ecole{
+        
+        height: 80px;
+        background: #ffffff;
+        overflow: hidden;
+        margin: auto;
+        /* align-items: center; */
+        /* position: relative;
+        height: 150px !important;
+        padding: 15px   !important;
+        text-align: center !important;
+        overflow: hidden !important; */
+        
+    }
+
+    .ecole img{
+        
+        height: 62px;
+        width: 185px;
+        margin: auto;
+        overflow: hidden;
+        
+        /* height: 100% !important;
+        overflow: hidden !important;
+        vertical-align: initial !important; */
+        
+    }
+
+    .titre_ecole{
+        font-size: 17px;
+        margin-top: 5px;
+
+    }
+
+    .section-title h2 {
+        font-size: 30px !important;
+        text-transform: none !important; 
+    }
+
+    .section-title {
+        text-align: center;
+        padding: 0px;
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+
+
+    .conteneur_vidéo{
+        overflow: hidden;
+    }
+
+
+   .playvidéo{
+    height: 330px;
+    width: 456px;
+    margin-top: -20px;
+   }
+
+   .Partenaires{
+       margin-top: 25px !important;
+   }
+
+   .top-content{
+        margin-bottom: 35px;
+   }
+
+   /* .fun-facts{
+    background-position: 0 !important;
+    background-image: url(images/garde_d_enfant1.jpg) center;
+    height: 300px;
+    background-image:url("{{ public_path('images/garde_d_enfant1.jpg')}}");
+    background-image: url("{{ public_path('images/bg_invoice.jpg') }}");
+    background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+   } */
+   
+   
+
+
+   /*////////carousel parténaire ////*/
+   /*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+ .carousel-item img{
+    height: 62px;
+    width: 185px;
+    margin: auto;
+ }
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: .9 !important;
+}
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+    
+    background: black;
+        
+} */
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+
+/*/////////////////// END CAROUSEL PARTENAIRE///////////////////////////////////*/
+  /* écran superieur à  775px (les grands écran)  */
+  @media (min-width: 775px) {
+        .topbar {
+            display: none;
+        }
+
+  }
+
+
+
+/* écran inférieur à  380px (les téléphone)  
+@media screen and (max-width: 768px) {
+
+
+
+
+}*/
